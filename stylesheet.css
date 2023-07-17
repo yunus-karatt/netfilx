@@ -155,7 +155,59 @@ h2 {
   line-height: 25px;
 
 }
+.questions{
+  width: 100%;
+  height: 850px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  border-top: 8px solid rgba(178, 174, 174, 0.3);
+  color: #fff;
+  align-items: center;
 
+}
+.questions ul {
+  display: block; /* Display the list as inline-block */
+  text-align: left; /* Left align the list items */
+  padding-left: 0; /* Remove default padding */
+}
+.questions li{
+  list-style: none;
+  
+}
+.q-btn{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1120px;
+  height: 36px;
+  text-align: left;
+  background-color: rgba(178, 174, 174, 0.3);
+  color: #fff;
+  border: none;
+  fill: #fff;
+  font-size: x-large;
+  font-weight: 400;
+  padding: 40px;
+  cursor: pointer;
+  
+}
+.questions h3{
+  margin: 10px;
+}
+.questions svg{
+  width: 36px;
+  height: 36px;
+  
+}
+.questions li :hover{
+  background-color: rgba(178, 174, 174,0.3);
+}
+.questions p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
 .footer {
   background-color: black;
   border-top: 8px solid rgba(178, 174, 174, 0.3);
